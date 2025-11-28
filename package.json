@@ -1,0 +1,29 @@
+{
+  "name": "ip4p",
+  "version": "0.1.1",
+  "description": "A tool for encoding and decoding IP4P address format",
+  "keywords": [
+    "ip4p",
+    "nat",
+    "homelab",
+    "natmap"
+  ],
+  "license": "MIT",
+  "author": "undirectlookable (https://github.com/undirectlookable)",
+  "homepage": "https://github.com/undirectlookable/ip4p-js",
+  "bugs": "https://github.com/undirectlookable/ip4p-js/issues",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
